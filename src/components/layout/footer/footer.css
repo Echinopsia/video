@@ -1,0 +1,118 @@
+.footer{
+    background: #191919;
+    color: #f9f9f9;
+    border-top: 1px solid #222;
+    margin-top: auto;
+    cursor: default;
+}
+.footer .top{
+    padding: 3rem 60px 3rem 0;
+    border-bottom: 1px solid #222;
+}
+.footer .top .content{
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.footer .top .content .title{
+    border-bottom: 1px solid #333;
+    margin-bottom: 1.5rem;
+    z-index: 2;
+}
+.footer .top .content .title h2{
+    color: #f9fafb;
+    letter-spacing: 1px;
+    font-size: 16.5px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+}
+.footer .top .content .title h2:after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 50px;
+    left: 0;
+    bottom: -1rem;
+    background: #ce1212;
+}
+.footer .top .part1 img{
+    max-width: 160px;
+    margin-bottom: 1rem;
+    height: auto;
+}
+.footer .top .part2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer .top .part2 li{
+    border-bottom: 1px solid #222;
+    padding: 0.5rem 0;
+}
+.footer .top .part2 li a{
+    text-decoration: none;
+    clear: both;
+    color: #f9f9f9;
+    display: block;
+    position: relative;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+}
+.footer .top .part2 li a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #ce1212;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+.footer .top .part2 li a:hover:before{
+    background: #ce1212;
+}
+.footer-post{
+    align-items: center;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+.footer-post .main{
+    position: relative;
+    margin-right: 1rem;
+}
+.footer-post .main a img{
+    width: 120px;
+    border-radius: 0.25rem!important;
+    overflow: hidden!important;
+    --aspect-ratio: calc(9 / 16 * 100%);
+}
+.footer-post .bottom{
+    width: 100%;
+    height: 100%;
+}
+.footer-post .bottom h5{
+    color: #f9f9f9;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 1.5;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}

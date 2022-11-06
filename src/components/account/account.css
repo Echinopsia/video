@@ -1,0 +1,95 @@
+.accountpage{
+    width: 400px;
+    margin: auto;
+    height: calc(90vh - 60px);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.accountpage .wrapper{
+    background: #1b1b1b;
+    border: none;
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-top: 20px;
+    margin-left: 0;
+    font-weight: 400;
+    min-height: 450px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+}
+.accountpage form .wrap{
+    margin: 0;
+    padding: 0;
+}
+.accountpage form .wrap label{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+}
+.accountpage form .wrap input{
+    background-color: #222;
+    display: block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    background: #222;
+    width: 100%;
+    max-width: 100%;
+    color: #f9f9f9;
+    border: 1px solid #333;
+    margin: 0 6px 16px 0;
+    min-height: 40px;
+    max-height: none;
+    border-radius: 0.25rem;
+}
+.accountpage form .wrap input:focus{
+    background: #333;
+    box-shadow: none;
+    outline: none;
+}
+.accountpage form button{
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 1rem;
+    background-color: #ce1e1e;
+    border: 1px solid #ce1e1e;
+    color: #fff;
+    border-radius: 35px;
+    outline: none;
+    box-shadow: none;
+    margin-top: 2rem;
+    min-height: 45px;
+    max-height: 45px;
+    line-height: 2.30769231;
+    vertical-align: baseline;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+.accountpage form button:hover{
+    background: #fff;
+    color: #ce1e1e;
+    border-color: #fff;
+}
+.accountpage .links{
+    margin: 24px 0 0;
+    font-size: 13px;
+    padding: 0 24px;
+    line-height: 2;
+}
+.accountpage .links a{
+    color: #f9f9f9;
+    margin: 0 5px;
+    padding: 0;
+    opacity: 1;
+    transition: all .2s ease-in;
+}
+.accountpage .links a:first-child{
+    margin-left: 0;
+}
+.accountpage .links a:hover{
+    opacity: .6;
+}
+.accountpage .error{
+    color: red;
+}
