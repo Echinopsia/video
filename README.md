@@ -4,4 +4,4 @@ In the project directory, run:
 
 ### `npm i`
 
-### `npm run`
+### `npm start`
